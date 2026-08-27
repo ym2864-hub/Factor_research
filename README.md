@@ -5,6 +5,14 @@ This project studies a combined Value–Momentum equity strategy and evaluates i
 
 The main research panel contains monthly observations from February 2018 through December 2024 across 607 stocks.
 
+## Setup and Run
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ym2864-hub/Factor_research.git
+cd Factor_research
+
 ## Data and Factors
 Main inputs:
 - Stock returns
@@ -134,13 +142,36 @@ Run the notebooks in the intended order from a clean state. Before finalizing re
 4. Check annualization conventions.
 5. Confirm report and presentation numbers match current outputs.
 
-Suggested structure:
+## Project Structure
 
 ```text
-.
+Factor_research/
 ├── README.md
-├── src/
+├── .gitignore
 ├── data/
+│   ├── panel_with_liquidity.csv
 │   └── outputs/
-└── notebooks/
-```
+│       ├── week5charts/
+│       ├── week5task3_outputs/
+│       ├── week6task1_outputs/
+│       ├── week6task2_outputs/
+│       ├── week6task3_outputs/
+│       ├── week6task4_outputs/
+│       ├── week6task5_outputs/
+│       └── week7task1_outputs/
+├── notebooks/
+│   ├── week5_backtesting.ipynb
+│   └── week6_Factor Combination and Attribution.ipynb
+└── src/
+    ├── week5costs.py
+    ├── week5liquidity.py
+    ├── week5task2.py
+    ├── week5task3.py
+    ├── week5task4.py
+    ├── week5task5.py
+    ├── week5turnover.py
+    ├── week6task1.py
+    ├── week6task2.py
+    ├── week6task3.py
+    ├── week6task4.py
+    └── week7task1.py
