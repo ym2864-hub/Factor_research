@@ -12,7 +12,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/ym2864-hub/Factor_research.git
 cd Factor_research
-
+```
 ## Data and Factors
 Main inputs:
 - Stock returns
