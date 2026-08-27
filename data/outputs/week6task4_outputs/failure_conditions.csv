@@ -1,0 +1,9 @@
+Condition,What_To_Check
+Strong dependence on market exposure,Compare raw returns with Task 3 factor attribution.
+Strong dependence on momentum exposure,Compare momentum beta and momentum factor contribution.
+Performance concentrated in small or illiquid names,"Compare full, large-cap, and top-liquidity universes."
+Results materially weaken under alternative lookbacks or skips,Inspect parameter_sensitivity.csv.
+Results materially weaken under quarterly rebalancing,Inspect monthly versus quarterly results.
+Results materially weaken after sector filtering,Inspect universe_robustness.csv.
+Results depend on extreme or invalid observations,Review the invalid-return data-quality filter.
+Results depend on one short subperiod or one sector,"Inspect subperiod, regime, and sector tables."

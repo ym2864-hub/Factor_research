@@ -1,0 +1,6 @@
+Dimension,Strongest,Weakest_or_Risk,Interpretation
+Sector,Technology,Consumer Defensive,"Technology is the largest contributor and has positive contribution across all tested subperiods, suggesting a relatively durable source of returns."
+Quintile,Q5,Weak Q5-Q1 separation,Q5-Q1 annualized spread = 0.50%; weak cross-sectional separation.
+Holding Period,12M,Short horizon,12M average forward return = 17.29%; diagnostic only.
+Market Regime,Bull,Bear,Bull Sharpe = 1.79; Bear Sharpe = -0.32; performance is regime-dependent.
+Drawdown,N/A,Maximum drawdown,Maximum drawdown = -21.76%; key downside risk.
